@@ -59,16 +59,18 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-image: url("../img/youtube-banner.jpg");
+  /*background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);*/
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: right center;
   background-attachment: scroll;
   background-size: cover;
 }
 
 header.masthead .masthead-content {
   z-index: 1;
-  position: relative;
+  position: absolute;
+  bottom: 0;
 }
 
 header.masthead .masthead-content .masthead-heading {
